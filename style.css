@@ -1,0 +1,87 @@
+body{
+	font-family: Calibri, Arial;
+	background-color:#FFFAF0;
+	margin-right: 6%;
+	margin-left: 6%;
+}
+
+header{
+	background-color: #FFA07A;
+	border-bottom: solid #000000;
+	margin-top: -2.7%;
+	
+}
+
+footer{
+	background-color: #FFA07A;
+	border-top: solid #000000;
+}
+
+.corps{
+	margin-top: -1.5%;
+	background-color: #FFFFFF;
+	padding-bottom:16%;
+}
+
+#ancre{
+	padding-top: 1%;
+	padding-left: 3%;
+}
+
+h1{
+	font-size: 300%;
+}
+
+nav ul{
+	list-style-type: none;
+	display: flex;
+	padding-bottom: 1%;
+}
+
+nav li{
+	margin-right: 1%;
+}
+
+footer a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 110%;
+	margin-right: 0.3%;
+	
+}
+
+nav a{
+	text-transform: uppercase;
+	font-size: 170%;
+	text-decoration: none;
+	color: #000000;
+}
+
+nav a:hover{
+	color: #2F4F4F;
+}
+
+footer  a:hover{
+	color: #2F4F4F;
+}
+
+.salsa, .romantique, .noel, .sentiment, .boudoir, .reveillon, .estivale{
+	width: 20%;
+	display: inline;
+}
+
+#salsa, #romantique, #noel, #sentiment, #boudoir, #reveillon, #estivale{
+	width: 30%;
+}
+
+.lacommande{
+	
+	margin-left:20%;
+}
+
+.commande{
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 10%;
+	margin-left:5%;
+}
